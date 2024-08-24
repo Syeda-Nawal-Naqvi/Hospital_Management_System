@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Appointment Scheduling - Cancer Treatment Hospital</title>
+    <link rel="stylesheet" type="text/css" href="appointment-schedulingstyle.css">
+</head>
+<body>
+    <header>
+        <h1>Appointment Scheduling</h1>
+    </header>
+    <main>
+        <section>
+           
+            <h2>Schedule an Appointment</h2>
+           
+            <form action="appointment-scheduling.php" method="post">
+                <label for="appointment-id">Appointment ID:</label>
+                <input type="text" id="appointment-id" name="appointment-id"><br>
+                <label for="patient-id">Patient ID:</label>
+                <input type="text" id="patient-id" name="patient-id"><br>
+                <label for="doctor-id">Doctor ID:</label>
+                <input type="text" id="doctor-id" name="doctor-id"><br>
+                <label for="appointment-date">Appointment Date:</label>
+                <input type="date" id="appointment-date" name="appointment-date"><br>
+                <input type="submit" value="Schedule">
+            </form>
+            <div id="appointment-scheduling-table"></div>
+        </section>
+    </main>
+</body>
+</html>

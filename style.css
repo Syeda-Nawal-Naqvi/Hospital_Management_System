@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    color: #ffffff;
+}
+
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+    color: rgb(255, 232, 29);
+}
+
+header img {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+nav {
+    background-color: rgba(59, 59, 59, 0.514);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    background-color: rgb(252, 0, 0);
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+nav ul li a[href="patient-records.php"] {
+    background-color: rgb(214, 200, 7);
+}
+
+nav ul li a[href="appointment-scheduling.php"] {
+    background-color: rgb(18, 157, 207);
+}
+nav ul li a[href="billing.php"] {
+    background-color: rgb(245, 62, 62);
+}
+
+nav ul li a[href="staff-management.php"] {
+    background-color: rgb(43, 170, 24);
+}
+
+nav ul li a[href="doctor.php"] {
+    background-color: rgb(240, 26, 186);
+}
+
+nav ul li a[href="doctor.html"] {
+    background-color: rgb(240, 26, 186);
+}
+
+nav ul li a[href="patient-records.html"] {
+    background-color: rgb(214, 200, 7);
+}
+
+nav ul li a[href="appointment-scheduling.html"] {
+    background-color: rgb(18, 157, 207);
+}
+
+nav ul li a[href="staff-management.html"] {
+    background-color: rgb(43, 170, 24);
+}
+
+nav ul li a[href="billing.html"] {
+    background-color: rgb(245, 62, 62);
+}
+
+nav ul li a[href="doctor.html"] {
+    background-color: rgb(240, 26, 186);
+}
+nav ul li a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+section {
+    background-color: #e0ffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+section h2 {
+    color: #1E90FF;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}

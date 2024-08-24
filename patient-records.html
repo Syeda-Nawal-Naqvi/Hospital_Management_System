@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Records - Cancer Treatment Hospital</title>
+    <link rel="stylesheet" type="text/css" href="patient-recordsstyle.css">
+</head>
+<body>
+    <header>
+        <h1>Patient Records</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Enter Patient Details</h2>
+            <form action="patient-records.php" method="post">
+                <label for="patient-id">Patient ID:</label>
+                <input type="text" id="patient-id" name="patient-id" required><br>
+
+                <label for="patient-name">Patient Name:</label>
+                <input type="text" id="patient-name" name="patient-name" required><br>
+
+                <label for="date_of_birth">Date of Birth:</label>
+                <input type="date" id="date_of_birth" name="date_of_birth" required><br>
+
+                <label for="contact_number">Contact Number:</label>
+                <input type="text" id="contact_number" name="contact_number" required><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+       
+    </main>
+</body>
+</html>

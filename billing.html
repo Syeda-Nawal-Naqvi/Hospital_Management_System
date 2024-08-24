@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Billing - Cancer Treatment Hospital</title>
+    <link rel="stylesheet" type="text/css" href="billingstyle.css">
+</head>
+<body>
+    <header>
+        <h1>Billing</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Enter Billing Details</h2>
+            <form action="billing.php" method="post">
+
+                <label for="billing-id">Billing ID:</label>
+                <input type="text" id="billing-id" name="billing-id"><br>
+
+                <label for="patient-id">Patient ID:</label>
+                <input type="text" id="patient-id" name="patient-id"><br>
+
+                <label for="amount">Amount:</label>
+                <input type="text" id="amount" name="amount"><br>
+
+                <label for="billing-date">Billing Date:</label>
+                <input type="date" id="billing-date" name="billing-date"><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
